@@ -1,0 +1,30 @@
+.navbar-nav {
+  font-size: 14px;
+  font-weight: 500;
+}
+.collapse ul {
+  font-size: 14px;
+  font-weight: 500;
+}
+.active a {
+  color: var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+}
+.form-control input {
+  background-color: #1a1115;
+  font-size: 12px;
+  width: 240px;
+  box-shadow: none;
+}
+.form-control svg {
+  color: #6c757d;
+  width: 16px;
+  height: 16px;
+}
+.form-control .svg-style {
+  width: 20px;
+  height: 20px;
+}
+.span-style {
+  color: var(--main-color);
+}

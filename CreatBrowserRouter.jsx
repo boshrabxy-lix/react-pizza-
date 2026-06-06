@@ -1,27 +1,28 @@
-import React, { Children } from 'react';
-import { CreatBrowserRouter } from 'react-router-dom';
-import login from './assets/components/login/Login';
-import Contacts from './assets/components/contacts/Contacts';
-import Getpizza from './assets/components/getpizza/Getpizza';
-import Setpizza from './assets/components/setpizza/Setpizza';
-import MoreRecipes1 from './assets/components/moreRecipes/MoreRecipes1';
-import MoreRecipes2 from './assets/components/moreRecipes/MoreRecipes2';
-import MainLayout from './assets/components/mainLayout/MainLayout';
+import React from 'react';
+import { createBrowserRouter } from 'react-router-dom';
+import Login from './src/assets/components/login/Login'; 
+import Contacts from './src/assets/components/contacts/Contacts';
+import Getpizza from './src/assets/components/getpizza/Getpizza';
+import Setpizza from './src/assets/components/setpizza/Setpizza';
+import MoreRecipes1 from './src/assets/components/moreRecipes/MoreRecipes1';
+import MoreRecipes2 from './src/assets/components/moreRecipes/MoreRecipes2';
+import MainLayout from './src/assets/components/mainLayout/MainLayout';
+import Home from './src/assets/components/home/Home';
 
 
-const router = CreatBrowserRouter(
+const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
 
-    Children :[
+    children :[
       {
         index: true,
-        element: <Home />
+        element: <Home/>
       },
       {
         path: "/login",
-        element: <Login />
+        element: <Login/>
       },
 
       {
@@ -48,6 +49,7 @@ const router = CreatBrowserRouter(
       },
 
     ]
-  });
+  }
+]);
 
 export default router;
