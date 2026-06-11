@@ -1,0 +1,49 @@
+.footerContainer {
+  background-color: var(--neutral-color);
+  color: #ffffff;
+  padding: 40px 20px;
+  border-top: 1px solid #1e1e1e;
+}
+
+.brandTitle {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.brandDescription {
+  color: #a0a0a0;
+  font-size: 14px;
+  max-width: 300px;
+  line-height: 1.6;
+}
+
+.footerLink {
+  color: #a0a0a0 !important;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease-in-out;
+}
+
+.footerLink:hover {
+  color: var(--main-color) !important; /* يتحول للبرتقالي عند الـ Hover */
+}
+
+.socialIconBtn {
+  background-color: #1e1e1e;
+  color: #a0a0a0;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.socialIconBtn:hover {
+  background-color: var(--main-color);
+  color: #ffffff;
+}
+
+.copyrightText {
+  color: #555555;
+  font-size: 12px;
+}

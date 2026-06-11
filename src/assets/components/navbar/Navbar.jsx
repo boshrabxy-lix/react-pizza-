@@ -1,14 +1,15 @@
 import React from "react";
 import style from "./Navbar.module.css";
+import "../../../index.css";
 
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-md navbar-dark px-4 py-3">
+      <nav className="navbar navbar-expand-md navbar-dark bg-dark px-4 py-3">
         <div className="container-fluid d-flex justify-content-around align-items-center">
           <div className="logo d-flex g-1">
             <a
-              className="d-flex justify-content-center text-decoration-none fw-bold fs-4 me-5 align-items-center"
+              className={`${style.navLogo} d-flex justify-content-center text-decoration-none fw-bold fs-4 me-5 align-items-center`}
               href="#"
             >
               Nocturnal Cravings
@@ -16,37 +17,43 @@ export default function Navbar() {
           </div>
 
           <div className="collapse navbar-collapse d-none d-md-block">
-            <ul className="navbar-nav mb-2 mb-lg-0 gap-4">
+            <ul
+              className={`${style.collapseUl} ${style.navbarNav} navbar-nav mb-2 mb-lg-0 gap-4`}
+            >
               <li className="nav-item ">
                 <a
-                  className="nav-link active pb-1  text-secondary p-0 hover-orange"
+                  className={`${style.activeLink} nav-link active pb-1 p-0`}
                   aria-current="page"
                 >
                   Home
                 </a>
               </li>
 
-              <li className="nav-item">
+              <li className={`${style.navLink} nav-item`}>
                 <a
-                  className="nav-link text-secondary p-0 hover-orange"
+                  className={`${style.navLink}nav-link text-secondary p-0 text-decoration-none`}
                   href="#"
                 >
                   Menu
                 </a>
               </li>
 
-              <li
-                className="nav-item  text-secondary p-0 hover-orangenav-link text-secondary p-0 hover-orange"
-                href="#"
-              >
-                <a>Offers</a>
+              <li className="nav-item" href="#">
+                <a
+                  className={`${style.navLink}nav-link text-secondary p-0 text-decoration-none`}
+                  href="#"
+                >
+                  Offers
+                </a>
               </li>
 
-              <li
-                className="nav-item nav-link text-secondary p-0 hover-orange"
-                href="#"
-              >
-                <a link="">Branches </a>
+              <li className="nav-item " href="#">
+                <a
+                  className={`${style.navLink}nav-link text-secondary p-0 text-decoration-none`}
+                  href="#"
+                >
+                  Branches
+                </a>
               </li>
             </ul>
           </div>
@@ -55,14 +62,14 @@ export default function Navbar() {
             <div className="position-relative d-none d-sm-block">
               <input
                 type="text"
-                placeholder="What are you craving tonight? text-secondary"
-                className="form-control text-light border-0 rounded-pill py-2 ps-5 pe-4"
+                placeholder="What are you craving tonight?"
+                className={`${style.searchInput} text-white border-0 rounded-pill py-2 ps-5 pe-4`}
               />
               <svg
                 stroke="currentColor"
                 strokeWidth="2"
                 viewBox="0 0 24 24"
-                className="position-absolute start-0 top-50 translate-middle-y ms-3"
+                className={`${style.searchSvg} position-absolute start-0 top-50 translate-middle-y ms-3`}
               >
                 <path
                   strokeLinecap="round"
@@ -74,7 +81,7 @@ export default function Navbar() {
 
             <button className="btn p-0 text-secondary position-relative hover-orange">
               <svg
-                className="svg-style"
+                className={`${style.svgStyle}`}
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="2"
@@ -86,12 +93,14 @@ export default function Navbar() {
                   d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                 />
               </svg>
-              <span className=" span-style position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle"></span>
+              <span
+                className={`${style.spanStyle} position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle`}
+              ></span>
             </button>
 
             <button className="btn p-0 text-secondary hover-orange">
               <svg
-                className={`${style.svg-style}`}
+                className={`${style.svgStyle}`}
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="2"

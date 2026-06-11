@@ -1,30 +1,38 @@
-.navbar-nav {
+.navLogo{
+  color:var(--main-color)
+}
+.navbarNav {
   font-size: 14px;
   font-weight: 500;
 }
-.collapse ul {
+.collapseUl {
   font-size: 14px;
   font-weight: 500;
 }
-.active a {
+.activeLink {
   color: var(--main-color);
-  border-bottom: 2px solid var(--main-color);
+  border-bottom: 2px solid  var(--main-color);
 }
-.form-control input {
-  background-color: #1a1115;
+.navLink:hover{
+  color:var(--main-color);
+}
+
+.searchInput {
+  background-color: #1a1115 ;
   font-size: 12px;
   width: 240px;
-  box-shadow: none;
+  box-shadow: none ;
+  color:#f7f8f9;
 }
-.form-control svg {
+.searchSvg {
   color: #6c757d;
   width: 16px;
   height: 16px;
 }
-.form-control .svg-style {
+.svgStyle {
   width: 20px;
   height: 20px;
 }
-.span-style {
+.spanStyle {
   color: var(--main-color);
 }
