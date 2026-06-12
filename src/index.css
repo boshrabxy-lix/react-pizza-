@@ -3,6 +3,7 @@
   --secondary-color: #ffb800;
   --tertiary-color: #1e1e1e;
   --neutral-color: #121212;
+
   box-sizing: border-box;
-  font-family: "Poppins", "Lato", sans-serif;
+  font-family: Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Poppins", "Lato", sans-serif;
 }

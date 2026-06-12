@@ -1,0 +1,111 @@
+.offersSection {
+  background-color: #0c0d0f; 
+  padding: 60px 20px;
+}
+
+.sectionTitle {
+  margin: 0;
+  color: #f3f4f6;
+}
+
+.titleUnderline {
+  width: 55px;
+  height: 3px;
+  background-color:#FF8B67; 
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+.viewAllBtn {
+  color: #FF8B67; 
+  font-size: 15px;
+  transition: color 0.2s ease-in-out;
+  gap: 6px;
+}
+
+.viewAllBtn:hover {
+  color: #FF8B67;
+  text-decoration: underline;
+}
+
+.arrow {
+  font-size: 18px;
+  line-height: 0;
+  color: #FF8B67;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
+.offerCard {
+  background-color: #121316;
+  border-radius: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+
+.offerCard:hover {
+  transform: scale(1.02);
+}
+
+.imageContainer {
+  aspect-ratio: 1 / 1; 
+}
+
+.cardOverlay {
+  background: linear-gradient(
+    to top,
+    rgba(12, 13, 15, 0.95) 0%,
+    rgba(12, 13, 15, 0.7) 35%,
+    rgba(12, 13, 15, 0.1) 70%,
+    transparent 100%
+  );
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.badge {
+  background-color:var(--secondary-color); 
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.cardTitle {
+  font-size: 24px;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.3px;
+}
+
+.cardDescription {
+  font-size: 13px;
+  color: #FF8B67; 
+  margin: 0 0 12px 0;
+  font-weight: 500;
+}
+
+.cardPrice {
+  font-size: 20px;
+  color:var(--secondary-color); 
+}
+
+@media (max-width: 992px) {
+  .cardsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+}
