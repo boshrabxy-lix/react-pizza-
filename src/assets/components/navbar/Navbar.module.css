@@ -22,7 +22,7 @@
   font-size: 12px;
   width: 240px;
   box-shadow: none ;
-  color:#f7f8f9;
+  color:#4a4b4c;
 }
 .searchSvg {
   color: #6c757d;
@@ -35,4 +35,11 @@
 }
 .spanStyle {
   color: var(--main-color);
+}
+
+.searchInput:focus {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: #ff5e14;
+  width: 310px;
+  box-shadow: 0 0 15px rgba(255, 94, 20, 0.2);
 }

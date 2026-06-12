@@ -22,7 +22,7 @@ export default function Navbar() {
             >
               <li className="nav-item ">
                 <a
-                  className={`${style.activeLink} nav-link active pb-1 p-0`}
+                  className={`${style.activeLink} nav-link active pb-1 p-0  transition-all`}
                   aria-current="page"
                 >
                   Home
@@ -31,7 +31,7 @@ export default function Navbar() {
 
               <li className={`${style.navLink} nav-item`}>
                 <a
-                  className={`${style.navLink}nav-link text-secondary p-0 text-decoration-none`}
+                  className={`${style.navLink}nav-link text-secondary p-0 text-decoration-none  transition-all`}
                   href="#"
                 >
                   Menu
@@ -40,7 +40,7 @@ export default function Navbar() {
 
               <li className="nav-item" href="#">
                 <a
-                  className={`${style.navLink}nav-link text-secondary p-0 text-decoration-none`}
+                  className={`${style.navLink}nav-link text-secondary p-0 text-decoration-none transition-all`}
                   href="#"
                 >
                   Offers
@@ -49,7 +49,7 @@ export default function Navbar() {
 
               <li className="nav-item " href="#">
                 <a
-                  className={`${style.navLink}nav-link text-secondary p-0 text-decoration-none`}
+                  className={`${style.navLink}nav-link text-secondary p-0 text-decoration-none transition-all`}
                   href="#"
                 >
                   Branches

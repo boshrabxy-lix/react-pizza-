@@ -1,0 +1,103 @@
+.heroContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 700px;
+  background: linear-gradient(
+      rgba(10, 10, 10, 0.45), 
+      rgba(10, 10, 10, 0.75)
+    ), 
+    url('https://lh3.googleusercontent.com/aida-public/AB6AXuAwNbmd79v9Bhpb7OluUEKYfiTvCAcsvxYBcO5AYCBMU8r3qmPG_lInRrV4kNFVkaOyDfYl3msBpMFeDJmBX4Y8C9_Qv51QgscXhxy77df4YQBvQiB8BIbKLlUu-_kXttAkKWeJhKJEpf0ab1AJcTR0eidjG4wLPgYjvfeTUyC5td2EwdqRr4XG6KDht_47nDKL9XU7tXDydKUcD-E0g8bWj4trCcc9Rpr9q-fI1odVriU8JqDMtAfpvXOxPr2qs7vaFyjv0ptJV88') no-repeat center center/cover;
+}
+
+.badge {
+  background-color: rgba(255, 94, 20, 0.12);
+  border: 1px solid rgba(255, 94, 20, 0.35);
+  color:var(--main-color);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 10px rgba(255, 94, 20, 0.1);
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.12;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+
+.highlight {
+  color: #ff5e14;
+}
+
+.description {
+  font-size: 20px;
+  color: #d4d4d8;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.btnPrimary {
+  background-color: #ff5e14;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(255, 94, 20, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btnPrimary:hover {
+  background-color: #e04e0e;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 94, 20, 0.55);
+}
+
+.btnSecondary {
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.2);;
+  font-size: 16px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.btnSecondary:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 52px;
+  }
+  .description {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 20px 5%;
+  }
+  .nav {
+    display: none;
+  }
+  .heroContent {
+    padding: 0 5% 40px 5%;
+  }
+  .title {
+    font-size: 42px;
+  }
+  .searchInput {
+    width: 180px;
+  }
+  .searchInput:focus {
+    width: 220px;
+  }
+}
