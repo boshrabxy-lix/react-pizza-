@@ -1,0 +1,62 @@
+/* .nocturnalSection {
+  background-color: #0b0c10; 
+  color: #ffffff;
+  padding: 60px 0;
+}
+
+.cravingsTitle {
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.pizzaImageWrapper {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 100%;
+  min-height: 400px; 
+}
+
+.sideImageWrapper {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 24px; 
+  height: calc(50% - 12px); 
+  min-height: 188px; 
+}
+
+.pizzaImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.pizzaImg:hover {
+  transform: scale(1.04);
+}
+
+.orangeBadge {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff4d00;
+  color: #ffffff;
+  padding: 6px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .pizzaImageWrapper,
+  .sideImageWrapper {
+    height: 250px; 
+    min-height: auto;
+    margin-bottom: 20px;
+  }
+} */
