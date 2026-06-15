@@ -4,7 +4,7 @@ import Footer from "../footer/Footer";
 import Hero from "../hero/hero";
 import BestOffer from "../BestOffer/BestOffer";
 import BeChef from "../BeChef/BeChef";
-import Discover from "../Discover/Discover";
+// import Discover from "../Discover/Discover";
 
 export default function Home() {
   return (
@@ -13,7 +13,6 @@ export default function Home() {
       <Hero />
       <BestOffer />
 
-      <Discover />
       <BeChef />
       <Footer />
     </>

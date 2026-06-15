@@ -1,5 +1,4 @@
 import React from "react";
-import Home from "./assets/components/home/Home";
 import { RouterProvider } from "react-router-dom";
 import router from "./router"
 
