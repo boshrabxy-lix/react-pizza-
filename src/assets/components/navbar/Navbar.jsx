@@ -10,9 +10,7 @@ export default function Navbar() {
         <div className="logo d-flex g-1">
           <Link
             className={`${style.navLogo} d-flex justify-content-center text-decoration-none fw-bold fs-4 me-5 align-items-center`}
-            to={'/'} >
-            Nocturnal Cravings
-          </Link>
+            to={'/'} > Nocturnal Cravings </Link>
         </div>
 
         <div className="collapse navbar-collapse d-none d-md-block">
@@ -23,33 +21,26 @@ export default function Navbar() {
               <Link
                 className={`${style.activeLink}  nav-link active pb-1 p-0  transition-all`}
                 aria-current="page"
-                to={'/'} > Home </Link>
+                to={'/'}> Home </Link>
             </li>
 
             <li className="nav-item">
               <Link
-
                 className={`${style.navLink} nav-link text-secondary p-0 text-decoration-none  transition-all`}
-                to={'/moreRecipes1'}  >
-                Menu
-              </Link>
+                to={'/moreRecipes1'}> Menu</Link>   
             </li>
 
             <li className="nav-item">
               <Link
                 className={`${style.navLink}  nav-link text-secondary p-0 text-decoration-none transition-all`}
                 to={'/moreRecipes2'}
-              >
-                Offers
-              </Link>
+              >  Offers </Link>
             </li>
 
             <li className="nav-item ">
               <Link
                 className={`${style.navLink}  nav-link text-secondary p-0 text-decoration-none transition-all`}
-                to={'/contacts'}>
-                contacts
-              </Link>
+                to={'/contacts'}> contacts  </Link>
             </li>
           </ul>
         </div>
