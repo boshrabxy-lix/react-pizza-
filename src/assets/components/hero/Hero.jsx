@@ -5,7 +5,7 @@ import "../../../index.css";
 export default function Hero() {
  
   return (
-    <hero className={`${style.heroContainer} d-flex flex-column justify-content-between text-white overflow-hidden`}>
+    <section className={`${style.heroContainer} d-flex flex-column justify-content-between text-white overflow-hidden`}>
       <div className="container-fluid px-4 px-md-5 mb-5 flex-grow-1 d-flex align-items-center">
         <div className="row w-100">
           <div className="col-12 col-lg-7 d-flex flex-column align-items-start justify-content-center text-start">
@@ -39,6 +39,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </hero>
+    </section>
   );
 }

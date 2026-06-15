@@ -1,19 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./Navbar.module.css";
 import "../../../index.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <>
-      <nav className="navbar navbar-expand-md navbar-dark bg-dark px-4 py-3">
+      <nav className={`${style.navbar}  navbar navbar-expand-md px-4 py-3`}>
         <div className="container-fluid d-flex justify-content-around align-items-center">
           <div className="logo d-flex g-1">
-            <a
+            <link
               className={`${style.navLogo} d-flex justify-content-center text-decoration-none fw-bold fs-4 me-5 align-items-center`}
-              href="#"
+              to={'/'}
             >
               Nocturnal Cravings
-            </a>
+            </link>
           </div>
 
           <div className="collapse navbar-collapse d-none d-md-block">
@@ -21,39 +21,40 @@ export default function Navbar() {
               className={`${style.collapseUl} ${style.navbarNav} navbar-nav mb-2 mb-lg-0 gap-4`}
             >
               <li className="nav-item ">
-                <a
+                <Link
                   className={`${style.activeLink} nav-link active pb-1 p-0  transition-all`}
                   aria-current="page"
+                  to={'/'}
                 >
                   Home
-                </a>
+                </Link>
               </li>
 
               <li className={`${style.navLink} nav-item`}>
-                <a
+                <Link
+
                   className={`${style.navLink}nav-link text-secondary p-0 text-decoration-none  transition-all`}
-                  href="#"
+                  to={'/moreRecipes1'}
                 >
                   Menu
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item" href="#">
-                <a
+                <Link
                   className={`${style.navLink}nav-link text-secondary p-0 text-decoration-none transition-all`}
-                  href="#"
+                  to={'/moreRecipes2'}
                 >
                   Offers
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item " href="#">
-                <a
+                <Link
                   className={`${style.navLink}nav-link text-secondary p-0 text-decoration-none transition-all`}
-                  href="#"
-                >
-                  Branches
-                </a>
+                  to={'/contacts'}>
+                  contacts
+                </Link>
               </li>
             </ul>
           </div>
@@ -116,6 +117,5 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-    </>
   );
 }

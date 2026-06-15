@@ -44,11 +44,9 @@ export default function BeChef() {
               Start Designing Now
             </button>
           </div>
-
-          {/* القسم الأيمن: صورة البيتزا الاحترافية داخل دائرة التنسيق */}
+          
           <div className="col-md-6 text-center">
             <div className={`${style.imageWrapper} rounded-pill`}>
-              {/* تم استبدال الإيموجي برابط صورة حقيقية من الويب */}
               <img
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDu-ryxJIv7pU_bZNSU_bbW5KLX_gEEBQpHxZIZ4MDHfT9SSUzzENno7k6EFSk8_qQbA79LLkz9BbeH1MCZIll1pVorx1Tyi7KdAxirojXQ7zZ9nPvbxltBjb5GKbfh2KC6Kyl-ly6d-7ltBoitPZzOIhRbfmR84iPep5s25C7oWxKPh5ed5hFFfWJEovXXzBJGK4S5Y1nUY3qQMIkT2Lb-EAZM9Bmtb-anP8YofjDpwYRfcae3-6U2xvfInYqg2TDgDLfwt_RE2A"
                 alt="Customized Pizza Top View"

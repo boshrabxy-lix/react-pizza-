@@ -2,7 +2,7 @@ import React from 'react'
 import style from "./Footer.module.css";
 
 export default function Footer() {
-  return <>
+  return (
     <footer className={style.footerContainer}>
       <div className="container-fluid px-md-5">
         <div className="row align-items-center gy-4">
@@ -62,5 +62,5 @@ export default function Footer() {
         
       </div>
     </footer>
-  </>
+ );
 }

@@ -1,3 +1,6 @@
+.navbar{
+  background-color: #000000;
+}
 .navLogo{
   color:var(--main-color)
 }
@@ -13,6 +16,10 @@
   color: var(--main-color);
   border-bottom: 2px solid  var(--main-color);
 }
+.activeLink{
+  color:var(--therd-color);
+}
+
 .navLink:hover{
   color:var(--main-color);
 }
