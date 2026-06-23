@@ -1,0 +1,17 @@
+.pageWrapper {
+  background: linear-gradient(rgba(75, 74, 76, 0.85), rgba(120, 86, 35, 0.95)), 
+ url('https://ms.hsoubcdn.com/uploads/thumbnails/435348/65107c86534ad/1.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  color: #ffffff;
+  justify-content:center ;
+  justify-items: center;
+
+}
+
+.formContainer {
+  max-width: 550px;
+  margin:auto 0;
+}
+.customInput {
+  border: var(--bs-border-width) solid #b87b20;
+}

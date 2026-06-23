@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./BestOffer.module.css";
+import { Link } from "react-router-dom";
 
 export default function BestOffer() {
   const offers = [
@@ -40,9 +41,9 @@ export default function BestOffer() {
             <h2 className={`${style.sectionTitle} fw-bold fs-4 fw-semibold`}>Best Offers</h2>
             <div className={style.titleUnderline}></div>
           </div>
-          <a href="#view-all" className={`${style.viewAllBtn} d-flex align-items-center text-decoration-none fw-bold`}>
+          <Link to="/getpizza" className={`${style.viewAllBtn} d-flex align-items-center text-decoration-none fw-bold`}>
             View All <span className={style.arrow}>&rarr;</span>
-          </a>
+          </Link>
         </div>
 
         <div className={style.cardsGrid}>

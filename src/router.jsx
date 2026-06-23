@@ -4,10 +4,11 @@ import Login from './assets/components/login/Login';
 import Contacts from './assets/components/contacts/Contacts';
 import Getpizza from './assets/components/getpizza/Getpizza';
 import Setpizza from './assets/components/setpizza/Setpizza';
-import MoreRecipes1 from './assets/components/moreRecipes/MoreRecipes1';
-import MoreRecipes2 from './assets/components/moreRecipes/MoreRecipes2';
 import MainLayout from './assets/components/mainLayout/MainLayout';
 import Home from './assets/components/home/Home';
+import CarrotMenu from './assets/components/moreRecipes/carrotMenu';
+import PotatoMenu from './assets/components/moreRecipes/PotatoMenu';
+import Subscription from './assets/components/subscription/Subscription';
 
 
 const router = createBrowserRouter([
@@ -39,13 +40,18 @@ const router = createBrowserRouter([
         element: <Setpizza />,
       },
       {
-        path: "/moreRecipes1",
-        element: <MoreRecipes1 />,
+        path: "/carrotMenu",
+        element: <CarrotMenu />,
       },
       {
-        path: "/moreRecipes2",
-        element: <MoreRecipes2 />,
-      }
+        path: "/potatoMenu",
+        element: <PotatoMenu />,
+      },
+ {
+        path: "/subscription",
+        element: <Subscription />,
+      },
+
     ]
   }
 ]);

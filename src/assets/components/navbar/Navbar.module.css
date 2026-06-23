@@ -13,13 +13,9 @@
   font-weight: 500;
 }
 .activeLink {
-  color: var(--main-color);
+  color: var(--main-color) !important;
   border-bottom: 2px solid  var(--main-color);
 }
-.activeLink{
-  color:var(--therd-color);
-}
-
 .navLink:hover{
   color:var(--main-color);
 }

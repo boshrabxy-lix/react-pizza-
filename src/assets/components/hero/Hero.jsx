@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Hero.module.css";
 import "../../../index.css";
+import {Link} from "react-router";
 
 export default function Hero() {
  
@@ -27,14 +28,14 @@ export default function Hero() {
             </p>
 
             <div className="d-flex gap-3">
-              <button
+              <Link to={"/Getpizza"}
                 className={`${style.btnPrimary} btn rounded-pill px-4 py-3 fw-semibold text-white `}>
                 Order Now
-              </button>
-              <button
+              </Link>
+              <Link
                 className={`${style.btnSecondary} btn rounded-pill px-4 py-3 fw-semibold text-white border border-white border-opacity-25 transition-all`}>
                 Explore Menu
-              </button>
+              </Link>
             </div>
           </div>
         </div>
