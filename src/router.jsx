@@ -2,14 +2,12 @@ import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import Login from './assets/components/login/Login'; 
 import Contacts from './assets/components/contacts/Contacts';
-import Getpizza from './assets/components/getpizza/Getpizza';
-import Setpizza from './assets/components/setpizza/Setpizza';
 import MainLayout from './assets/components/mainLayout/MainLayout';
 import Home from './assets/components/home/Home';
 import CarrotMenu from './assets/components/moreRecipes/carrotMenu';
 import PotatoMenu from './assets/components/moreRecipes/PotatoMenu';
 import Subscription from './assets/components/subscription/Subscription';
-
+import Setpizza from './assets/components/setpizza/Setpizza';
 
 const router = createBrowserRouter([
   {
@@ -28,11 +26,6 @@ const router = createBrowserRouter([
       {
         path: "/contacts",
         element: <Contacts />
-      },
-
-      {
-        path: "/getpizza",
-        element: <Getpizza />
       },
 
       {

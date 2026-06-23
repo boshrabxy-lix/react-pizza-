@@ -28,7 +28,7 @@ export default function Hero() {
             </p>
 
             <div className="d-flex gap-3">
-              <Link to={"/Getpizza"}
+              <Link to={"/setpizza"}
                 className={`${style.btnPrimary} btn rounded-pill px-4 py-3 fw-semibold text-white `}>
                 Order Now
               </Link>

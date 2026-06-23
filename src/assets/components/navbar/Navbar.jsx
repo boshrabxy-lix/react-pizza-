@@ -33,7 +33,7 @@ export default function Navbar() {
             <li className="nav-item">
               <Link
                 className={`${style.navLink} nav-link text-secondary p-0 text-decoration-none  transition-all`}
-                to={"/getpizza"}
+                to={"/setpizza"}
               >
                 Pizza Menu
               </Link>

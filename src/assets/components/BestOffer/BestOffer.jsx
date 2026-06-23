@@ -41,7 +41,7 @@ export default function BestOffer() {
             <h2 className={`${style.sectionTitle} fw-bold fs-4 fw-semibold`}>Best Offers</h2>
             <div className={style.titleUnderline}></div>
           </div>
-          <Link to="/getpizza" className={`${style.viewAllBtn} d-flex align-items-center text-decoration-none fw-bold`}>
+          <Link to="/setpizza" className={`${style.viewAllBtn} d-flex align-items-center text-decoration-none fw-bold`}>
             View All <span className={style.arrow}>&rarr;</span>
           </Link>
         </div>
