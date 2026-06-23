@@ -4,7 +4,7 @@ import Post from "../posts/Post";
 
 export default function Setpizza() {
   const { data, isLoader, error } = UseFetch(
-    "http://forkify-api.jonas.io/api/v2/recipes?search=pizza",
+    "https://forkify-api.jonas.io/api/v2/recipes?search=pizza",
   );
   if (isLoader) return <Loader />;
  if (error) return <div className="alert alert-danger">{error}</div>;
