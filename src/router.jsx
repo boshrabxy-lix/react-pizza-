@@ -9,6 +9,7 @@ import PotatoMenu from './assets/components/moreRecipes/PotatoMenu';
 import Subscription from './assets/components/subscription/Subscription';
 import Setpizza from './assets/components/setpizza/Setpizza';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
