@@ -2,7 +2,7 @@ import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import Login from './assets/components/login/Login'; 
 import Contacts from './assets/components/contacts/Contacts';
-import MainLayout from './assets/components/mainLayout/MainLayout';
+import MainLayout from './assets/components/mainlayout/MainLayout';
 import Home from './assets/components/home/Home';
 import CarrotMenu from './assets/components/moreRecipes/CarrotMenu';
 import PotatoMenu from './assets/components/moreRecipes/PotatoMenu';
