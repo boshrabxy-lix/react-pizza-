@@ -4,7 +4,7 @@ import Login from './assets/components/login/Login';
 import Contacts from './assets/components/contacts/Contacts';
 import MainLayout from './assets/components/mainLayout/MainLayout';
 import Home from './assets/components/home/Home';
-import CarrotMenu from './assets/components/moreRecipes/carrotMenu';
+import CarrotMenu from './assets/components/moreRecipes/CarrotMenu';
 import PotatoMenu from './assets/components/moreRecipes/PotatoMenu';
 import Subscription from './assets/components/subscription/Subscription';
 import Setpizza from './assets/components/setpizza/Setpizza';
