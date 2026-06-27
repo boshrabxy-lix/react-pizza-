@@ -5,7 +5,7 @@ import Post from "../posts/Post";
 
 export default function PotatoMenu() {
  const { data, isLoader, error } = useFetch(
-    "http://forkify-api.jonas.io/api/v2/recipes?search=potato",
+    "https://forkify-api.jonas.io/api/v2/recipes?search=potato",
   );
   if (isLoader) return <Loader />;
   if (error) return <div className="alert alert-danger">{error}</div>;

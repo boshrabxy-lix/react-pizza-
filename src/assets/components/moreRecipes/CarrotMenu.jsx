@@ -5,7 +5,7 @@ import Post from "../posts/Post";
 
 export default function CarrotMenu() {
   const { data, isLoader, error } = useFetch(
-    "http://forkify-api.jonas.io/api/v2/recipes?search=carrot",
+    "https://forkify-api.jonas.io/api/v2/recipes?search=carrot",
   );
   if (isLoader) return <Loader />;
   if (error) return <div className="alert alert-danger">{error}</div>;
