@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
-import Login from './assets/components/login/Login'; 
+import Login from './assets/components/login/Login';
 import Contacts from './assets/components/contacts/Contacts';
 import MainLayout from './assets/components/mainlayout/MainLayout';
 import Home from './assets/components/home/Home';
@@ -14,14 +14,14 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
-    children :[
+    children: [
       {
         index: true,
-        element: <Home/>
+        element: <Home />
       },
       {
         path: "/login",
-        element: <Login/>
+        element: <Login />
       },
 
       {
@@ -41,11 +41,10 @@ const router = createBrowserRouter([
         path: "/potatoMenu",
         element: <PotatoMenu />,
       },
- {
+      {
         path: "/subscription",
         element: <Subscription />,
       },
-
     ]
   }
 ]);
